@@ -1,0 +1,84 @@
+{
+  "onderwerp": "SCIOS Scope 12",
+  "meta": {
+    "peildatum": "2026-11-15",
+    "licentie": "CC BY 4.0",
+    "toelichting": "Afgeleid van de informatiesites; bij verschil is de site leidend. Het polisblad en de officiële regels gaan altijd voor."
+  },
+  "informatiesite": "https://scope12info.nl",
+  "wat": {
+    "waarde": "SCIOS-inspectie van zonnestroominstallaties (PV-systemen): de panelen, het montagesysteem, de DC- en AC-bekabeling, de omvormers en de aansluiting op de elektrische installatie.",
+    "bron_url": "https://scope12info.nl/wat-is-scope-12"
+  },
+  "norm": {
+    "waarde": "SCIOS Technisch Document 18 (TD18), dat verwijst naar onder meer NEN 1010, NEN-EN-IEC 62446-1 en NEN-EN-IEC 61439-1; bij een periodieke inspectie ook NEN 3140.",
+    "bron_url": "https://scope12info.nl/inhoud-inspectie/normen-scope-12"
+  },
+  "wettelijk_verplicht": {
+    "waarde": false,
+    "toelichting": "Niet wettelijk verplicht; de verplichting komt uit de polis van de brandverzekeraar. Een wettelijke keuringsplicht voor veestallen is in voorbereiding maar (stand oktober 2026) nog niet ingevoerd.",
+    "bron_url": "https://scope12info.nl/wat-is-scope-12/scope-12-verplicht"
+  },
+  "inspectievormen": {
+    "waarde": [
+      {
+        "vorm": "EBI",
+        "omschrijving": "Eerste inspectie, gericht op de kwaliteit van de aanleg; ook vereist bij een bestaande installatie zonder EBI-basisverslag."
+      },
+      {
+        "vorm": "PI",
+        "omschrijving": "Periodieke vervolginspectie, gericht op de toestand van de installatie; vereist een eerder EBI-basisverslag."
+      }
+    ],
+    "bron_url": "https://scope12info.nl/wat-is-scope-12"
+  },
+  "termijn": {
+    "waarde": "Periodieke inspectie volgens TD18 na 5 jaar, tenzij in een overeenkomst (meestal de polis) een andere termijn staat",
+    "toelichting": "Verzekeraars hanteren 3 tot 5 jaar.",
+    "bron_url": "https://scope12info.nl/verloop-inspectie/termijn"
+  },
+  "uitvoerder": {
+    "waarde": "Alleen een inspectiebedrijf met een geldig SCIOS-certificaat voor Scope 12, verleend door Bureau Veritas, DEKRA of Kiwa.",
+    "bron_url": "https://scope12info.nl/wat-is-scope-12"
+  },
+  "resultaat": {
+    "waarde": "Inspectierapport en een afmelding in het SCIOS-portaal binnen 28 dagen; geen certificaat voor de installatie.",
+    "bron_url": "https://scope12info.nl/verloop-inspectie/certificaat"
+  },
+  "constructieverklaring": {
+    "waarde": "Nodig vanaf 50 panelen of vanaf 1.150 kg paneelgewicht.",
+    "uitzonderingen": [
+      "minder dan 50 panelen én minder dan 1.150 kg paneelgewicht",
+      "individuele woning",
+      "tuinderskas waarbij het dekglas is vervangen door PV-panelen met exact dezelfde afmetingen"
+    ],
+    "bron_url": "https://scope12info.nl/inhoud-inspectie/constructieberekening"
+  },
+  "vanafprijzen_excl_btw": {
+    "peildatum_bron": "2026-11-13",
+    "toelichting": "Openbare vanafprijzen van inspectiebedrijven en verzekeraars. Een EBI is doorgaans duurder dan een PI; een hoogwerker wordt als meerprijs doorberekend.",
+    "waarden": [
+      {
+        "aantal_panelen": "tot 50",
+        "vanafprijs": "circa € 295"
+      },
+      {
+        "aantal_panelen": "tot 100",
+        "vanafprijs": "circa € 545"
+      },
+      {
+        "aantal_panelen": "101 tot 300",
+        "vanafprijs": "circa € 695"
+      },
+      {
+        "aantal_panelen": "301 tot 1.000",
+        "vanafprijs": "circa € 895"
+      },
+      {
+        "aantal_panelen": "meer dan 1.000",
+        "vanafprijs": "op offerte"
+      }
+    ],
+    "bron_url": "https://scope12info.nl/kosten"
+  }
+}

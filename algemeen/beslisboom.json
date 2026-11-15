@@ -1,0 +1,200 @@
+{
+  "titel": "Welke inspectie heb ik nodig?",
+  "meta": {
+    "peildatum": "2026-11-15",
+    "licentie": "CC BY 4.0",
+    "toelichting": "Afgeleid van de informatiesites; bij verschil is de site leidend. Het polisblad en de officiële regels gaan altijd voor."
+  },
+  "gebruik": "Loop alle vragen langs. Elke vraag kan een uitkomst opleveren; meerdere uitkomsten kunnen tegelijk gelden. De inspecties vervangen elkaar niet.",
+  "vragen": [
+    {
+      "id": "v1",
+      "vraag": "Eist uw brandverzekeraar een inspectie van de elektrische installatie op brandrisico (Scope 10, NTA 8220 of een elektrakeuring)?",
+      "antwoorden": [
+        {
+          "antwoord": "ja",
+          "uitkomst": "scope-10"
+        },
+        {
+          "antwoord": "nee of onbekend",
+          "advies": "Vraag het na bij uw verzekeraar of tussenpersoon; de eis staat in de polisvoorwaarden of in een clausule op het polisblad."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "vraag": "Liggen er zonnepanelen op of bij het pand?",
+      "antwoorden": [
+        {
+          "antwoord": "ja, op een zakelijk dak, een VvE-dak of een agrarisch gebouw",
+          "vervolgvraag": "v2a"
+        },
+        {
+          "antwoord": "ja, op een woning",
+          "advies": "Voor woningen eisen verzekeraars de inspectie doorgaans niet. Controleer uw polis."
+        },
+        {
+          "antwoord": "nee"
+        }
+      ]
+    },
+    {
+      "id": "v2a",
+      "vraag": "Is er al een EBI-basisverslag van de zonnestroominstallatie?",
+      "antwoorden": [
+        {
+          "antwoord": "nee",
+          "uitkomst": "scope-12-ebi"
+        },
+        {
+          "antwoord": "ja",
+          "uitkomst": "scope-12-pi"
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "vraag": "Staat er een batterij (energieopslagsysteem)?",
+      "antwoorden": [
+        {
+          "antwoord": "ja, meer dan 20 kWh met lithiumhoudende cellen",
+          "uitkomst": "eos-bij-scope-10"
+        },
+        {
+          "antwoord": "ja, een thuisbatterij van een particulier, minder dan 20 kWh",
+          "uitkomst": "thuisbatterij"
+        },
+        {
+          "antwoord": "nee"
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "vraag": "Bent u werkgever en werken er mensen met of bij de elektrische installatie?",
+      "antwoorden": [
+        {
+          "antwoord": "ja",
+          "uitkomst": "scope-8-pi"
+        },
+        {
+          "antwoord": "nee",
+          "advies": "Scope 8 volgt dan niet uit de Arbowet; de verzekeraar of een huurcontract kan haar wel vragen."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "vraag": "Gebruiken medewerkers elektrisch gereedschap of andere apparaten met een stekker?",
+      "antwoorden": [
+        {
+          "antwoord": "ja",
+          "uitkomst": "keuring-arbeidsmiddelen"
+        },
+        {
+          "antwoord": "nee"
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "vraag": "Wordt er een nieuwe of ingrijpend gewijzigde elektrische installatie opgeleverd?",
+      "antwoorden": [
+        {
+          "antwoord": "ja",
+          "uitkomst": "scope-8-ebi"
+        },
+        {
+          "antwoord": "nee"
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "vraag": "Heeft u een glastuinbouwbedrijf met assimilatiebelichting?",
+      "antwoorden": [
+        {
+          "antwoord": "ja",
+          "uitkomst": "assimilatiebelichting"
+        },
+        {
+          "antwoord": "nee"
+        }
+      ]
+    }
+  ],
+  "uitkomsten": {
+    "scope-10": {
+      "inspectie": "SCIOS Scope 10",
+      "omschrijving": "Inspectie van al het elektrisch materieel op brandrisico volgens NTA 8220, met een visuele inspectie, metingen en thermografie.",
+      "wettelijk_verplicht": false,
+      "grondslag": "Polis van de brandverzekeraar",
+      "termijn": "Meestal 3 of 5 jaar",
+      "bron_url": "https://scope10info.nl/wat-is-scope-10/scope-10-verplicht"
+    },
+    "scope-12-ebi": {
+      "inspectie": "SCIOS Scope 12, EBI (eerste of bijzondere inspectie)",
+      "omschrijving": "Eerste inspectie van de zonnestroominstallatie, gericht op de kwaliteit van de aanleg. Ook nodig bij een bestaande installatie zonder EBI-basisverslag. Scope 10 vervangt Scope 12 niet.",
+      "wettelijk_verplicht": false,
+      "grondslag": "Polis van de brandverzekeraar; vaak vanaf circa 50 panelen, sommige verzekeraars zonder minimum",
+      "termijn": "Eenmalig; daarna periodieke inspecties",
+      "bron_url": "https://scope12info.nl/wat-is-scope-12/scope-12-verplicht"
+    },
+    "scope-12-pi": {
+      "inspectie": "SCIOS Scope 12, PI (periodieke inspectie)",
+      "omschrijving": "Vervolginspectie, gericht op de toestand van de zonnestroominstallatie.",
+      "wettelijk_verplicht": false,
+      "grondslag": "Polis van de brandverzekeraar",
+      "termijn": "Volgens TD18 5 jaar, tenzij de polis een andere termijn noemt; verzekeraars hanteren 3 tot 5 jaar",
+      "bron_url": "https://scope12info.nl/verloop-inspectie/termijn"
+    },
+    "eos-bij-scope-10": {
+      "inspectie": "SCIOS Scope 10; het energieopslagsysteem gaat mee in de inspectie",
+      "omschrijving": "Een energieopslagsysteem gaat altijd mee in de Scope 10 inspectie. SCIOS heeft op 1 mei 2026 een aparte EOS-module onder Scope 10 aangekondigd; die is (stand oktober 2026) nog niet ingevoerd. Een Scope 15 bestaat niet.",
+      "wettelijk_verplicht": false,
+      "grondslag": "Polis van de brandverzekeraar",
+      "termijn": "Volgt de termijn van de Scope 10 inspectie",
+      "bron_url": "https://scope10info.nl/scope-10-eos/wat-is-eos-inspectie"
+    },
+    "thuisbatterij": {
+      "inspectie": "Geen SCIOS-inspectie-eis",
+      "omschrijving": "Voor thuisbatterijen onder 20 kWh kent SCIOS geen inspectie-eis. Wel gelden NEN 1010 en de eisen van de verzekeraar.",
+      "wettelijk_verplicht": false,
+      "grondslag": "",
+      "termijn": "",
+      "bron_url": "https://scope10info.nl/scope-10-eos/welke-batterijen"
+    },
+    "scope-8-pi": {
+      "inspectie": "Periodieke inspectie volgens NEN 3140; SCIOS Scope 8 PI is de gecertificeerde vorm",
+      "omschrijving": "Inspectie van de vaste elektrische installatie, gericht op de veiligheid van personen.",
+      "wettelijk_verplicht": false,
+      "grondslag": "Niet letterlijk in de wet; gangbare invulling van de zorgplicht uit de Arbowet (artikel 3) en het Arbobesluit (artikel 3.4). Ook polis of huurcontract kan de inspectie eisen",
+      "termijn": "Risicogestuurd volgens NEN 3140 bijlage I: maximaal 1 tot 15 jaar, in de praktijk meestal 3 tot 5 jaar",
+      "bron_url": "https://scope8info.nl/wat-is-scope-8/scope-8-verplicht"
+    },
+    "scope-8-ebi": {
+      "inspectie": "SCIOS Scope 8 EBI (eerste of bijzondere inspectie)",
+      "omschrijving": "Inspectie van een nieuwe of ingrijpend gewijzigde installatie vóór ingebruikname, getoetst aan onder meer NEN 1010. Niet verplicht; een NEN 1010-opleveringsinspectie door de installateur volstaat.",
+      "wettelijk_verplicht": false,
+      "grondslag": "Vrijwillig",
+      "termijn": "Eenmalig",
+      "bron_url": "https://scope8info.nl/wat-is-scope-8/ebi-of-pi"
+    },
+    "keuring-arbeidsmiddelen": {
+      "inspectie": "Keuring van elektrische arbeidsmiddelen; SCIOS Scope 9 is de vrijwillige, gecertificeerde vorm",
+      "omschrijving": "De keuring zelf is wettelijk verplicht, zo vaak als nodig en door een deskundige. Een keuring volgens NEN 3140 door een deskundige zonder SCIOS-certificaat voldoet ook aan de wet. Voor ladders, steigers, hijsmiddelen en andere arbeidsmiddelen gelden andere regels.",
+      "wettelijk_verplicht": true,
+      "grondslag": "Arbobesluit artikel 7.4a (de keuring); Scope 9 zelf is niet verplicht",
+      "termijn": "Geen wettelijke vaste termijn; de werkgever bepaalt het interval op basis van het risico. Arboportaal noemt jaarlijks een veilige ondergrens",
+      "bron_url": "https://scope9info.nl/wat-is-scope-9/scope-9-verplicht"
+    },
+    "assimilatiebelichting": {
+      "inspectie": "SCIOS Scope 10, met de belichtingsinstallatie in delen",
+      "omschrijving": "Assimilatiebelichting hoort altijd bij de Scope 10 inspectie en mag sinds 1 januari 2026 in delen worden geïnspecteerd. De verzekeraar kan daarnaast een jaarlijkse controlemeting van de belichting vragen; die vervangt Scope 10 niet.",
+      "wettelijk_verplicht": false,
+      "grondslag": "Polis van de brandverzekeraar; SCIOS Technisch Document 14",
+      "termijn": "Elk deel ten minste eens per 5 jaar; binnen 3 jaar als de inspectiefrequentie van het bedrijf 3 jaar is",
+      "bron_url": "https://scope10info.nl/scope-10-assimilatieverlichting"
+    }
+  }
+}

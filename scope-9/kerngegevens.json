@@ -1,0 +1,63 @@
+{
+  "onderwerp": "SCIOS Scope 9",
+  "meta": {
+    "peildatum": "2026-11-15",
+    "licentie": "CC BY 4.0",
+    "toelichting": "Afgeleid van de informatiesites; bij verschil is de site leidend. Het polisblad en de officiële regels gaan altijd voor."
+  },
+  "informatiesite": "https://scope9info.nl",
+  "wat": {
+    "waarde": "Periodieke keuring van elektrische arbeidsmiddelen door een SCIOS-gecertificeerd inspectiebedrijf, op basis van NEN 3140.",
+    "bron_url": "https://scope9info.nl/wat-is-scope-9"
+  },
+  "wettelijk_verplicht": {
+    "waarde": false,
+    "toelichting": "Het keuren van elektrische arbeidsmiddelen is wettelijk verplicht (Arbobesluit artikel 7.4a); een SCIOS Scope 9-inspectie is dat niet. De wet schrijft geen norm, geen vast interval en geen certificaat voor.",
+    "bron_url": "https://scope9info.nl/wat-is-scope-9/scope-9-verplicht"
+  },
+  "termijn": {
+    "waarde": "Geen wettelijke vaste termijn; de werkgever bepaalt het interval op basis van het risico en de RI&E",
+    "toelichting": "Arboportaal noemt één keer per jaar een veilige ondergrens; VCA 2026/6.1 vraagt ten minste eenmaal per jaar.",
+    "bron_url": "https://scope9info.nl/wat-is-scope-9/hoe-vaak-keuren"
+  },
+  "verantwoordelijke": {
+    "waarde": "De werkgever; uitbesteden draagt de verantwoordelijkheid niet over.",
+    "bron_url": "https://scope9info.nl/wat-is-scope-9"
+  },
+  "bewijs": {
+    "waarde": "Schriftelijke bewijsstukken van de keuringen zijn op de arbeidsplaats aanwezig, digitaal of op papier (Arbobesluit artikel 7.4a lid 6).",
+    "bron_url": "https://scope9info.nl/na-de-inspectie"
+  },
+  "aantal_gecertificeerde_bedrijven": {
+    "waarde": 24,
+    "toelichting": "SCIOS-register, stand oktober 2026.",
+    "bron_url": "https://scope9info.nl/wat-is-scope-9"
+  },
+  "richtprijzen_excl_btw": {
+    "peildatum_bron": "2026-10",
+    "toelichting": "Indicatief, gebaseerd op openbare tarieven van aanbieders (stand oktober 2026).",
+    "waarden": [
+      {
+        "wat": "Losse NEN 3140-keuring per apparaat",
+        "richtprijs": "€ 4,50 tot € 11,50"
+      },
+      {
+        "wat": "Vaste machines en 400 V-machines, per stuk",
+        "richtprijs": "circa € 12,50 tot € 17,50"
+      },
+      {
+        "wat": "Zwerf- en verdeelkasten, per stuk",
+        "richtprijs": "circa € 12,50 tot € 29,75"
+      },
+      {
+        "wat": "Voorrijkosten per bezoek",
+        "richtprijs": "circa € 50 tot € 75, of een kilometervergoeding"
+      },
+      {
+        "wat": "SCIOS Scope 9-inspectie als pakket (vanafprijs Interpolis)",
+        "richtprijs": "vanaf € 527,25"
+      }
+    ],
+    "bron_url": "https://scope9info.nl/kosten"
+  }
+}

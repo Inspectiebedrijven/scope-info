@@ -1,0 +1,16 @@
+scope,omschrijving,groep,infosite,bron_url
+1,Atmosferische verwarmingsketels en indirecte luchtverhitters,Stookinstallaties en verwarmingssystemen,,https://scope12info.nl/andere-scios-scopes/scope-1
+2,Warmwaterketels en luchtverhitters met ventilatorbranders,Stookinstallaties en verwarmingssystemen,,https://scope12info.nl/andere-scios-scopes/scope-2
+3,Stoomketels en heetwaterketels,Stookinstallaties en verwarmingssystemen,,https://scope12info.nl/andere-scios-scopes/scope-3
+4,Verbrandingsmotoren en -turbines,Stookinstallaties en verwarmingssystemen,,https://scope12info.nl/andere-scios-scopes/scope-4
+5,Bijzondere industriële installaties (5a: gestookt op vaste brandstoffen),Stookinstallaties en verwarmingssystemen,,https://scope12info.nl/andere-scios-scopes/scope-5
+6,Emissiemetingen,Stookinstallaties en verwarmingssystemen,,https://scope12info.nl/andere-scios-scopes/scope-6
+7,"Brandstofleidingen (7a: gas tot 0,5 bar; 7b: gas boven 0,5 bar; 7c: olie)",Stookinstallaties en verwarmingssystemen,,https://scope12info.nl/andere-scios-scopes/scope-7
+8,"Elektrische installaties: EBI (eerste of bijzondere inspectie, onder meer volgens NEN 1010) en PI (periodieke inspectie volgens NEN 3140)",Elektrisch materieel,scope8info.nl,https://scope8info.nl/wat-is-scope-8
+9,Elektrische arbeidsmiddelen volgens NEN 3140,Elektrisch materieel,scope9info.nl,https://scope9info.nl/wat-is-scope-9
+10,Elektrisch materieel: inspectie op brandrisico volgens NTA 8220,Elektrisch materieel,scope10info.nl,https://scope10info.nl/wat-is-scope-10
+11,Explosieveilige installaties (ATEX),Explosieveilige installaties,,https://scope12info.nl/andere-scios-scopes/scope-11
+12,Zonnestroominstallaties (PV),Elektrisch materieel,scope12info.nl,https://scope12info.nl/wat-is-scope-12
+13,Bestaat niet in de SCIOS-regeling,,,https://scope10info.nl/andere-scios-scopes
+14,Verwarmingssystemen en gekoppelde ventilatiesystemen (tot 29 mei 2026 de wettelijke EPBD-keuring; sindsdien vrijwillig),Stookinstallaties en verwarmingssystemen,,https://scope12info.nl/andere-scios-scopes/scope-14
+15,"Bestaat niet; de inspectie van energieopslagsystemen wordt een module onder Scope 10 (besluit SCIOS, mei 2026; nog niet ingevoerd)",,scope12info.nl,https://scope12info.nl/andere-scios-scopes/scope-15

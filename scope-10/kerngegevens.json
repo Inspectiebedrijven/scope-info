@@ -1,0 +1,76 @@
+{
+  "onderwerp": "SCIOS Scope 10",
+  "meta": {
+    "peildatum": "2026-11-15",
+    "licentie": "CC BY 4.0",
+    "toelichting": "Afgeleid van de informatiesites; bij verschil is de site leidend. Het polisblad en de officiële regels gaan altijd voor."
+  },
+  "informatiesite": "https://scope10info.nl",
+  "wat": {
+    "waarde": "Onafhankelijke inspectie van het elektrisch materieel in een gebouw op brandrisico.",
+    "bron_url": "https://scope10info.nl/wat-is-scope-10"
+  },
+  "norm": {
+    "waarde": "NTA 8220, aangevuld met SCIOS Technisch Document 14; thermografie volgens NPR 8040-1; classificatie van constateringen volgens SCIOS Informatieblad 22.",
+    "bron_url": "https://scope10info.nl/inhoud-inspectie/normen"
+  },
+  "wettelijk_verplicht": {
+    "waarde": false,
+    "toelichting": "Niet wettelijk verplicht; de verplichting komt uit de polis van de brandverzekeraar. Voor veestallen is een wettelijke keuringsplicht in voorbereiding maar (stand oktober 2026) nog niet ingevoerd.",
+    "bron_url": "https://scope10info.nl/wat-is-scope-10/scope-10-verplicht"
+  },
+  "onderdelen": {
+    "waarde": [
+      "risicoanalyse volgens NTA 8220",
+      "visuele inspectie en metingen",
+      "thermografie"
+    ],
+    "bron_url": "https://scope10info.nl/wat-is-scope-10"
+  },
+  "termijn": {
+    "waarde": "Meestal elke 3 of 5 jaar",
+    "toelichting": "De inspecteur beveelt op basis van NTA 8220 een termijn aan; de verzekeraar kan in de polis een eigen termijn noemen.",
+    "bron_url": "https://scope10info.nl/wat-is-scope-10/hoe-vaak-scope-10"
+  },
+  "uitvoerder": {
+    "waarde": "Alleen een SCIOS-gecertificeerd inspectiebedrijf met certificatie voor Scope 10; certificatie door Bureau Veritas, DEKRA of Kiwa.",
+    "bron_url": "https://scope10info.nl/wat-is-scope-10/wie-mag-uitvoeren"
+  },
+  "resultaat": {
+    "waarde": "Inspectierapport met geclassificeerde constateringen en een afmelding in het SCIOS-portaal.",
+    "bron_url": "https://scope10info.nl/na-de-inspectie"
+  },
+  "richtprijzen_excl_btw": {
+    "peildatum_bron": "2026-11-13",
+    "toelichting": "Indicatief, gebaseerd op openbare tarieven van inspectiebedrijven en verzekeraars; exclusief herstelwerk. Vraag altijd een offerte aan.",
+    "waarden": [
+      {
+        "type_pand": "Kleine bedrijfsunit met één verdeelinrichting",
+        "richtprijs": "€ 350 tot € 500"
+      },
+      {
+        "type_pand": "Middelgroot pand",
+        "richtprijs": "€ 500 tot € 900"
+      },
+      {
+        "type_pand": "Groot pand met meerdere verdeelinrichtingen",
+        "richtprijs": "€ 900 tot € 1.500 of meer"
+      },
+      {
+        "type_pand": "Agrarisch bedrijf (vanafprijs Interpolis)",
+        "richtprijs": "vanaf € 584,25"
+      }
+    ],
+    "bron_url": "https://scope10info.nl/kosten"
+  },
+  "prijsbepalend": {
+    "waarde": [
+      "aantal verdeelinrichtingen en groepen",
+      "oppervlakte en type pand",
+      "branche en bedrijfsactiviteit",
+      "bereikbaarheid en tijdstip",
+      "wat is inbegrepen (herbeoordeling na herstel)"
+    ],
+    "bron_url": "https://scope10info.nl/kosten"
+  }
+}

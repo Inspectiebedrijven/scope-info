@@ -1,0 +1,54 @@
+{
+  "onderwerp": "SCIOS Scope 8",
+  "meta": {
+    "peildatum": "2026-11-15",
+    "licentie": "CC BY 4.0",
+    "toelichting": "Afgeleid van de informatiesites; bij verschil is de site leidend. Het polisblad en de officiële regels gaan altijd voor."
+  },
+  "informatiesite": "https://scope8info.nl",
+  "wat": {
+    "waarde": "Periodieke veiligheidsinspectie van de vaste elektrische installatie van een gebouw, gericht op de veiligheid van personen.",
+    "bron_url": "https://scope8info.nl/wat-is-scope-8"
+  },
+  "norm": {
+    "waarde": "NEN 3140 (Scope 8 PI); onder meer NEN 1010 (Scope 8 EBI); uitvoering volgens SCIOS Technisch Document 12.",
+    "bron_url": "https://scope8info.nl/wat-is-scope-8/ebi-of-pi"
+  },
+  "wettelijk_verplicht": {
+    "waarde": false,
+    "toelichting": "Niet letterlijk wettelijk verplicht: de wet noemt Scope 8 noch NEN 3140. De Arbowet en het Arbobesluit verplichten werkgevers wel tot een veilige, onderhouden installatie; NEN 3140 met een periodieke inspectie is de gangbare invulling. Ook polis of huurcontract kan de inspectie eisen.",
+    "bron_url": "https://scope8info.nl/wat-is-scope-8/scope-8-verplicht"
+  },
+  "termijn": {
+    "waarde": "Risicogestuurd volgens NEN 3140 bijlage I: maximaal 1 tot 15 jaar; in de praktijk meestal 3 tot 5 jaar",
+    "toelichting": "Een kortere termijn in de polis of het huurcontract gaat voor.",
+    "bron_url": "https://scope8info.nl/wat-is-scope-8/hoe-vaak-scope-8"
+  },
+  "uitvoerder": {
+    "waarde": "Alleen een SCIOS-gecertificeerd inspectiebedrijf met bevoegde inspecteurs; certificatie door Kiwa, DEKRA of Bureau Veritas.",
+    "bron_url": "https://scope8info.nl/wat-is-scope-8"
+  },
+  "resultaat": {
+    "waarde": "Inspectierapport en een afmelding in het SCIOS-portaal; geen certificaat voor de eigenaar.",
+    "bron_url": "https://scope8info.nl/na-de-inspectie/hoe-weet-ik-goedgekeurd"
+  },
+  "richtprijzen_excl_btw": {
+    "peildatum_bron": "2026-10-26",
+    "toelichting": "Indicatief (stand oktober 2026), exclusief herstelwerk. Elke extra verdeelinrichting kost bij de meeste aanbieders € 50 tot € 150.",
+    "waarden": [
+      {
+        "type_pand": "Klein pand tot circa 500 m² met één verdeelinrichting",
+        "richtprijs": "€ 350 tot € 600"
+      },
+      {
+        "type_pand": "Middelgroot pand tot 2.500 m²",
+        "richtprijs": "€ 550 tot € 1.200"
+      },
+      {
+        "type_pand": "Grote of complexe installatie",
+        "richtprijs": "€ 1.300 of meer, meestal op offertebasis"
+      }
+    ],
+    "bron_url": "https://scope8info.nl/kosten"
+  }
+}
