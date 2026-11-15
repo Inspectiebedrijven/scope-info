@@ -34,6 +34,9 @@ jobs:
       - name: Verkeerscijfers ophalen
         env:
           GH_TOKEN: ${{ secrets.TRAFFIC_TOKEN }}
+        # shell: bash zet pipefail aan, zodat een fout in het script de stap laat mislukken
+        # (zonder pipefail verbergt `tee` de foutcode).
+        shell: bash
         run: |
           if [ -z "$GH_TOKEN" ]; then
             echo "::error::Secret TRAFFIC_TOKEN ontbreekt. Zie de toelichting bovenaan deze workflow."
